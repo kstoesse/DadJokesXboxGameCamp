@@ -1,6 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &-5526615910191441494
+--- !u!114 &-7469634347772419925
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,6 +40,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level 1/Area
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 4523858836030563631}
@@ -53,6 +56,19 @@ MonoBehaviour:
   cacheTime: 637980724973427337
   cacheVersion: 131592
 --- !u!114 &441860930119293191
+  Name: Area
+  StudioPath: 
+  Min: 0
+  Max: 60
+  Default: 0
+  ID:
+    data1: 1931027984
+    data2: 1287489418
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4820566409303709140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -68,9 +84,11 @@ MonoBehaviour:
   Name: Master
   StudioPath: bank:/Master
   lastModified: 637980724973397151
+  lastModified: 637981023096907742
   FileSizes: []
   Exists: 1
 --- !u!114 &3768588231831875965
+--- !u!114 &-1896988040889118250
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81,6 +99,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Level 1/Area
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level 1
   m_EditorClassIdentifier: 
   Name: Area
   StudioPath: 
@@ -95,6 +115,23 @@ MonoBehaviour:
   Labels: []
   Exists: 1
 --- !u!114 &4523858836030563631
+  Path: event:/Level 1
+  Guid:
+    Data1: -880218244
+    Data2: 1204978762
+    Data3: 1164914068
+    Data4: -924851250
+  Banks:
+  - {fileID: -4820566409303709140}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7469634347772419925}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 79578
+--- !u!114 &-918781318369329228
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +147,32 @@ MonoBehaviour:
   Name: Master.strings
   StudioPath: bank:/Master.strings
   lastModified: 637980724973427337
+  lastModified: 637981023096927668
   FileSizes:
   - Name: 
     Value: 802
   Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -918781318369329228}
+  - {fileID: -4820566409303709140}
+  EditorEvents:
+  - {fileID: -1896988040889118250}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -4820566409303709140}
+  StringsBanks:
+  - {fileID: -918781318369329228}
+  cacheTime: 637981023096927668
+  cacheVersion: 131592

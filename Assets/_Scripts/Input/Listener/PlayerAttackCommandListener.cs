@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Corrupted;
 using System;
+using FMODUnity;
 
 [RequireComponent(typeof(CombatController))]
 public class PlayerAttackCommandListener : CorruptedCommandListener<CombatController>
