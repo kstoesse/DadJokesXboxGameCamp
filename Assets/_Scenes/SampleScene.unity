@@ -874,7 +874,6 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 66
   m_Value: 74
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6704,7 +6703,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3123340006855335737, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.08110577
       value: -0.08659387
       objectReference: {fileID: 0}
     - target: {fileID: 3123340008100465442, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
@@ -6807,7 +6805,9 @@ PrefabInstance:
       propertyPath: startFullHealth.ConstantValue
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
 --- !u!4 &3123340006698644048 stripped
 Transform:
