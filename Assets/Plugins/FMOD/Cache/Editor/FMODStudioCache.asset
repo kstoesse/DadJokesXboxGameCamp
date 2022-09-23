@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Area
   StudioPath: 
-  Min: 0
-  Max: 60
-  Default: 0
+  Min: 1
+  Max: 3
+  Default: 1
   ID:
     data1: 1931027984
     data2: 1287489418
@@ -39,7 +39,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637981023096907742
+  lastModified: 637988316646189825
   FileSizes: []
   Exists: 1
 --- !u!114 &-1896988040889118250
@@ -85,7 +85,7 @@ MonoBehaviour:
   Path: Assets/FMODBanks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637981023096927668
+  lastModified: 637988316646219729
   FileSizes:
   - Name: 
     Value: 802
@@ -112,5 +112,5 @@ MonoBehaviour:
   - {fileID: -4820566409303709140}
   StringsBanks:
   - {fileID: -918781318369329228}
-  cacheTime: 637981023096927668
+  cacheTime: 637988316646219729
   cacheVersion: 131592

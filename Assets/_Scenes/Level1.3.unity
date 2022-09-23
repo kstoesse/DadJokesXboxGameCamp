@@ -654,23 +654,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3123340006855335737, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.090272784
+      value: -0.08773655
       objectReference: {fileID: 0}
     - target: {fileID: 3123340006855335737, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.1288056
+      value: 8.447137
       objectReference: {fileID: 0}
     - target: {fileID: 3123340006855335737, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.886934
+      value: -12.611704
       objectReference: {fileID: 0}
     - target: {fileID: 3123340006855335737, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9914449
+      value: 0.97629607
       objectReference: {fileID: 0}
     - target: {fileID: 3123340006855335737, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.13052616
+      value: 0.2164396
       objectReference: {fileID: 0}
     - target: {fileID: 3123340006855335737, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: m_LocalRotation.y
@@ -787,6 +787,10 @@ PrefabInstance:
     - target: {fileID: 4119620125037735963, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
       propertyPath: startFullHealth.ConstantValue
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949476793152088397, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb7ced2033f59d84bb9b2aeaca468943, type: 3}
@@ -4601,7 +4605,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1754806288
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5309,7 +5313,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
-  m_Value: 73
+  m_Value: 74
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
